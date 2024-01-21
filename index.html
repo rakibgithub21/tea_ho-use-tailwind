@@ -42,8 +42,8 @@
 
 <body class="font-manrope">
     <header class="container mx-auto">
-        <div class="hero">
-            <div class="hero-content flex-col lg:flex-row">
+        <div class="my-20">
+            <div class=" flex items-center justify-between flex-col lg:flex-row">
                 <div>
                     <h1 class="text-5xl lg:text-7xl font-extrabold">It's good <br>
                         tea time at The <br>
@@ -154,7 +154,7 @@
                 <div class="space-y-6">
                     <h2 class="text-5xl font-extrabold text-white">Meet Our Super <br>
                         Clients</h2>
-                    <p class="text-white lg:r-28">There are many variations of passages of Lorem Ipsum available, but
+                    <p class="text-white lg:pr-28">There are many variations of passages of Lorem Ipsum available, but
                         the majority have suffered
                         alteration in some form,
                         by injected humour, or randomised words which don't look even slightly believable.</p>
@@ -247,9 +247,50 @@
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="px-48 py-10 bg-base-200 text-base-content">
+        <div class="flex justify-between my-24">
+            <img src="images/cup.png" alt="">
+            <p class="space-x-5">
+                <span>Ready to get started?</span>
+                <button class="btn btn-primary">Get Started</button>
+            </p>
+        </div>
+        <div  class="footer ">
+            <nav>
+                <header class="footer-title">Services</header>
+                <a class="link link-hover">Branding</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
+            </nav>
+            <nav>
+                <header class="footer-title">Company</header>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </nav>
+            <nav>
+                <header class="footer-title">Legal</header>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </nav>
+            <form>
+                <header class="footer-title">Newsletter</header>
+                <fieldset class="form-control w-80">
+                    <div class="join">
+                        <input type="text" placeholder="username@site.com" class="bg-transparent border-b-2 border-black py-4 "  />
+                        <button class="btn btn-primary join-item"><i class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <aside class="mt-4 text-center">
+            <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+        </aside>
     </footer>
+   
 </body>
 
 </html>
